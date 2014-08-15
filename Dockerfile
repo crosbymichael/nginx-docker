@@ -7,4 +7,5 @@ RUN echo "\ndaemon off;" >> /etc/nginx/nginx.conf
 
 VOLUME ["/etc/nginx"]
 EXPOSE 80
+CMD []
 ENTRYPOINT ["nginx"]
